@@ -1,0 +1,2 @@
+select d.d_name as delievery_boy_name, c.customer_name as customer_name, crt.order_date from delievery_boy d join cart crt on crt.d_id = d.d_id join customer c on c.customer_id = crt.customer_id ;
+# Listing all the orders with delievery boy and customer names with delievery date
